@@ -1,0 +1,280 @@
+*{
+    
+    padding:0;
+    margin: 0;
+}
+
+.main_header{
+    background: url("../../images/header.jpg");
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 700px;
+}
+
+.top_right_menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.top_right_menu a:hover{
+    text-decoration: underline;
+}
+
+.top_right_menu{
+    margin-top: 15px;
+float: right;
+    color: white;
+    
+}
+
+.top_right_menu_wrap{
+   width: 100%;
+       display:inline-block;
+}
+
+.right-menu{
+    
+  margin-left: 30px;
+   margin-top:20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.right-menu-wrap{
+      float: left;
+    border: 1px solid black;
+   background: rgba(0,0,0,0.7);
+    width: 200px;
+    height: 400;
+}
+.logo_pic{
+             
+
+    background-repeat: no-repeat;
+    height: 60;
+    margin-top: 26;
+    margin-left: 10;
+    background: url(../../Images/logo.png);
+    background-size:cover;
+    width: 180;
+  
+}
+
+.menu_items{
+    margin-top: 20px;
+}
+
+.menu_items ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+        margin-left: 20;
+        margin-bottom: 5;
+    margin-top: 6px;
+        display: inline-block;
+}
+.menu_items ul li{
+    list-style-type: none;
+    border-bottom: 1px dotted white;
+}
+.menu_items ul li a:hover{
+    text-decoration: underline;
+}
+.social ul li{
+    margin-left: 15px;
+    display:inline;
+    border-bottom: 0px;
+}
+
+.fb {
+  
+   background: url(../../Images/Social/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13px;
+    height:26px;
+    display: inline-block;
+}
+
+.tt {
+  
+   background: url(../../Images/Social/twitter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height:26px;
+    display: inline-block;
+}
+
+.in {
+  
+   background: url(../../Images/Social/insta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 26px;
+    height:26px;
+    display: inline-block;
+}
+
+
+.menu_items ul li .tel{
+    color: red;
+}
+
+
+.menu_items ul li .bi{
+    color:aquamarine;
+}
+
+
+
+.menu_items ul li .sch{
+    padding:7px 10px; 
+    margin-left: 10px;
+    background-color: rgba(6,51,96,0.7);
+    
+}
+
+.menu_items ul li .sch:hover{
+    padding:8x 10px; 
+    margin-left: 10px;
+    background-color: rgba(3, 26, 48,0.7);
+    text-decoration: none;
+}
+
+
+.slogan p{
+    font-size: 64;
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.slogan {
+    text-align: center;
+    
+}
+
+.buttn {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:15px 50px;
+    display: inline-block;
+background-color: #df4136;
+   
+
+   
+}
+
+.buttn:hover{
+background-color: #df2417;
+   
+     
+  
+    
+}
+
+.header_footer{
+    margin-top: 50;
+    width: 100%;
+    min-height: 65px;
+    background: rgba(0,0,0,0.7);
+    
+}
+.header_footer ul li{
+    display: inline-block;
+    text-decoration:none;
+}
+.header_footer ul li:hover{
+   
+    text-decoration:underline;
+    text-decoration: overline;
+}
+
+
+.right_list ul a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+     
+    
+}
+.right_list ul{
+    
+    margin-left: 15;
+
+}
+.right_list{
+   
+  color:white;
+    
+    
+    float: left;
+}
+
+
+.center{
+    text-align: center;
+    color: white;
+   
+    
+   
+   
+}
+.center p{
+    text-transform: uppercase;
+}
+.footer_social {
+   float: right; 
+    margin-right: 20px;
+}
+.footer_social ul li{
+    margin-left: 15px;
+    margin-top: 5;
+    border-bottom: 0px;
+}
+
+
+.extra{
+     background: url(../../Images/Social/extra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    display: inline-block;
+    height:26px; 
+}
+
+
+
+
+
+
+.table{
+    width: 100%;
+    height: 70;
+
+}
+.table td{
+    border-width: 0;
+}
+.first{
+    width: 25%;
+}
+.second{
+    width: 50%;
+}
+.third{
+    width: 25%;
+}
+
+
+
+
