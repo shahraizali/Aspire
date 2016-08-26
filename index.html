@@ -158,7 +158,28 @@ Aspire bridges the energy and glamour of Orange Avenue with the historic eleganc
         </div>
         <div class="map">
             
+                   <div id="map" class="mm"></div>
+    <script>
+      var map;
+      function initMap() {
+       var myLatlng = new google.maps.LatLng(31.4638446,74.4427678);
+          map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatlng,
+          zoom: 17
+              
+        });
+         
+      var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!"
+});
+          marker.setMap(map);
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAR_Ssdd8BzZ0Dk3firPLdDLmgNCt3BiAE&callback=initMap"
+    async defer></script>
             <div class="adress" >
+          
                 <p class="ad">VISIT OUR LEASING OFFICE AT 480 N ORANGE AVE, ORLANDO, FL   32801</p>
             </div>
             
