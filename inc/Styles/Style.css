@@ -7,6 +7,8 @@
 .body{
        
 }
+
+/* main header portion*/
 .main_header{
     background: url("../../images/header.jpg");
     width: 100%;
@@ -14,6 +16,7 @@
     background-size:cover;
     min-height: 670px;
 }
+
 
 .top_right_menu a{
     text-decoration: none;
@@ -77,7 +80,7 @@ float: right;
     text-transform: uppercase;
         margin-left: 20;
         margin-bottom: 5;
-    margin-top: 5.5px;
+    margin-top: 5px;
         display: inline-block;
 }
 .menu_items ul li{
@@ -290,7 +293,7 @@ background-color: #df2417;
 
 
 
-/*Gallery*/
+/*Gallery portion*/
 
 
 .Gallery{
@@ -368,6 +371,7 @@ background-color: #df2417;
 
 
 
+/*welcome portion*/
 
 .welcome{
     height: 467;
@@ -433,7 +437,7 @@ background-color: #df2417;
 }
 
 
-
+/*contact us portion start*/
 .contact_us{
      height: 467;
     width: 100%;
@@ -515,7 +519,7 @@ color: white;
 }
 
 
-
+/*Infro portoin at the bottom*/
 
 .info p{
  color:white;
