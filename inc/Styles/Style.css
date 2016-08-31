@@ -312,17 +312,17 @@ background-color: #df2417;
 
 .gallery_frame ul li{
     display:inline;
-    
+    width: 100%;
    height: 100%;
-    margin-left: 0em;
-    width: calc(100% - 2rem);
+    
+    
     
     
 }
 .gallery_frame ul{
         margin-top: 60;
-  margin-left: 200;
-    margin-right: 200;
+  margin-left: 7%;
+  margin-right: 0;
     margin-bottom: 60;
 }
 
@@ -337,6 +337,7 @@ background-color: #df2417;
     max-width: 30%;
     max-height: 100%;
             min-width: 30%;
+  
 
 }
 
@@ -404,8 +405,14 @@ background-color: #df2417;
     text-align: center;
     margin: 20;
     color:#b6b8ba;
+    max-height: 23;
 }
-
+.all_p {
+    display: inline-block;
+    width: 100%;
+  min-height: 70%;
+    max-height: 70%;
+}
 
 
 .map{
@@ -462,22 +469,25 @@ background-color: #df2417;
 }
 
 .form{
-    width: 50%;
+    width: 35%;
     height: 81%;
     float: left;
+    padding-left: 100;
+    display: block;
 }
 
 .info{
-     width: 50%;
+     display: block;
+     width: 45%;
     height: 81%;
     float: right;
 }
 
 
 .form-wrap input  {
-    margin-left: 25%;
+    
         margin-top:5%;
-       width:400;
+       width:100%;
     height: 30;
 color: white;
     background: url();
@@ -491,16 +501,16 @@ color: white;
          transition: opacity 250ms ease-in-out;
     }
 .form-wrap a{
-     margin-left: 25%;
-        margin-top:5%
-     width:400;
+     
+        margin-top:5%;
+    width: 20%;
     height: 30;
     color:white;
 }
 .form-wrap textarea{
-      margin-left: 25%;
+    
         margin-top:5%;
-            width:400;
+            width:100%;
     height: 78;
     margin-bottom: 12;
     color: white;
@@ -517,8 +527,7 @@ color: white;
     text-transform: uppercase;
     
    text-align: center;
-    padding-top: 12;
-    padding-bottom: 0;
+   
     background-color: #df4136;
     padding:12 25;
 }
